@@ -1,0 +1,13 @@
+
+ErrorDocument 404 /home.php
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+# 全てのURL
+RewriteRule ^home\.php$ - [L]
+# ドメイン（ルートの場合）
+# 画像だけはアクセス許可
+RewriteCond %{REQUEST_FILENAME} !^(.*)\.(gif|png|jpg|jpeg)$ [NC]
+RewriteRule . /home.php [L]
+</IfModule>

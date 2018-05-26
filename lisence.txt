@@ -1,0 +1,7 @@
+Framework Template for PHP
+
+Copyright 2018 - by Gentoku Miyata
+
+This program is free software; 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
